@@ -8,7 +8,13 @@ app.get("/", (req, res) => {
 
 app.get("/info", (req, res) => {
     res.json({
-        name: 'Service A1',
+        name: "Service A1",
+    });
+});
+
+app.get("/only_on_a", (req, res) => {
+    res.json({
+        title: "This api available only on A server!",
     });
 });
 
