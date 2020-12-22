@@ -1,0 +1,8 @@
+{
+    "script": "npm start",
+    "ignore_watch": [],
+    "watch_options": {
+        "followSymlinks": false
+    },
+    "name": "server-a2"
+}
