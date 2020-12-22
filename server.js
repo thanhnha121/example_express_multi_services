@@ -3,12 +3,12 @@ const app = express();
 const port = 3000;
 
 app.get("/", (req, res) => {
-    res.send("This is service B!");
+    res.send("This is service C!");
 });
 
 app.get("/info", (req, res) => {
     res.json({
-        name: 'Service B',
+        name: 'Service C',
     });
 });
 
