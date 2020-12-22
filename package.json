@@ -1,0 +1,15 @@
+{
+    "name": "example_express_multi_services",
+    "version": "1.0.0",
+    "description": "Created by Nhaht, 22/12/2020",
+    "main": "server.js",
+    "dependencies": {
+        "express": "^4.17.1"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "start": "node server.js"
+    },
+    "author": "nhaht",
+    "license": "ISC"
+}
