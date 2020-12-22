@@ -12,6 +12,12 @@ app.get("/info", (req, res) => {
     });
 });
 
+app.get("/only_on_a", (req, res) => {
+    res.json({
+        title: "This api available only on A server!",
+    });
+});
+
 app.listen(port, () => {
     console.log(`App listening at http://localhost:${port}`);
 });
